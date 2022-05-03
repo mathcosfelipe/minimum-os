@@ -9,7 +9,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "de78decc37247c7cfac5dbf3495c7298c6ac97cb355161caa7e15969c6648e6c"
 
 [[package]]
-name = "velvet"
+name = "minimum-os"
 version = "0.1.0"
 dependencies = [
  "bootloader",

@@ -1,5 +1,5 @@
 [package]
-name = "velvet"
+name = "minimum-os"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,3 +11,6 @@ panic = "abort"
 
 [profile.release]
 panic = "abort"
+
+[target.'cfg(target_os = "none")']
+runner = "bootimage runner"
